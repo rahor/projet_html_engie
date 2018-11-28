@@ -20,10 +20,21 @@
 	<!--MAIN-->
 	<main>
 
-	<h1>La page d'accueil</h1>
-	<h2>Le monserrat</h2>
-	<h3>Le nunito</h3>
-	
+		<!--TEST DE POLICE-->
+		<h1>La page d'accueil</h1>
+		<h2>Le monserrat</h2>
+		<h3>Le nunito marche c'est cool</h3>
+
+		<section class="sectionActu">
+			<h1>DERNI&Egrave;RES ACTUALIT&Egrave;S - carnet de route</h1>
+		</section>
+		<section class="sectionEquipe"><h1>D&Eacute;COUVREZ L'&Eacute;QUIPE 2016</h1></section>
+		<section class="sectionHC"><h1>HORS-COURSE</h1></section>
+		<section class="sectionProchainesCourses">
+			<h1>PROCHAINES COURSE</h1>
+			<h1>ZOOM SUR LE TOUR D'ESPAGNE</h1>
+		</section>
+
 	</main>
 
 	<!--FOOTER-->
