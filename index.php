@@ -25,8 +25,10 @@
 		<h2>Le monserrat</h2>
 		<h3>Le nunito marche c'est cool</h3>
 
-		<section class="sectionActu"></section>
-		<section class="sectionEquipe"></section>
+		<section class="sectionActu">
+			<h1>DERNI&Egrave;RES ACTUALIT&Egrave;S - carnet de route</h1>
+		</section>
+		<section class="sectionEquipe"><h1>D&Eacute;COUVREZ L'&Eacute;QUIPE 2016</h1></section>
 		<section class="sectionHC"></section>
 		<section class="sectionProchainesCourses"></section>
 
