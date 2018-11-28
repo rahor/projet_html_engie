@@ -23,6 +23,15 @@
 	<?php
 	include('./pages/include/footer.html');
 	?>
+<?php
+include('./header.html');
+?>
 
+<h1>La page html</h1>
+ada,ma
+
+<?php
+include('./header.html');
+?>
 </body>
 </html>
