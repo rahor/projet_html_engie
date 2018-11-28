@@ -20,9 +20,9 @@
 	<main>
 
 		<!--TEST DE POLICE-->
-		<h1>La page d'accueil</h1>
+	<!-- 	<h1>La page d'accueil</h1>
 		<h2>Le monserrat</h2>
-		<h3>Le nunito marche c'est cool</h3>
+		<h3>Le nunito marche c'est cool</h3> -->
 		
 		<!-- SECTION ACTUALITE -->
 		<section class="sectionActu ">
@@ -61,7 +61,15 @@
 		<!-- SECTION HORS-COURSE -->
 		<section class="sectionHC">
 			<div class="container">
-			<h1>HORS-COURSE</h1></div>
+				<h1>HORS-COURSE</h1>
+				
+				<div class="cubeHC">
+					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>	
+					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>	
+					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>	
+					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>	
+				</div>
+			</div>
 		</section>
 		
 		<section class="sectionProchainesCourses">

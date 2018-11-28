@@ -31,12 +31,26 @@ body {
 	margin: 0 auto;
 }
 
-h1,h2, nav{
+h1{
   font-family: 'Nunito', cursive;
   font-size: 1.5rem;
   /*text-transform: uppercase;*/
   margin-bottom: 1.5rem;
+   
+/*  border-top: 0.1rem solid #FFD500;*/
+  padding-top: .5rem;
+  position:relative; 
 }
+
+h1:before {
+  content:''; 
+  width:4rem; 
+  height:4px; 
+  background: #FFD500; 
+  position:absolute; 
+  top:-4px;
+}
+
 
 
 
@@ -83,6 +97,7 @@ main section:nth-child(even) {
 .grosse img {
 	width: 100%;
 }
+/**/
 
 /*
 EQUIPE
@@ -96,8 +111,20 @@ EQUIPE
 	border: 1px solid black;
 	border-radius: 50%;
 }
+/**/
 
-/*SECTION COURSE*/
+/*
+SECTION HORS-COURSE
+*/
+.cubeHC{
+	display: flex;
+	justify-content: space-between;
+}
+/**/
+
+/*
+SECTION COURSE
+*/
 article img{
 	width: 100%;
 }
