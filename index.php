@@ -30,6 +30,5 @@
 	<?php
 	include('./pages/include/footer.html');
 	?>
-
 </body>
 </html>
