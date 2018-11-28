@@ -1,28 +1,29 @@
 /* feuille de style */
 
 *{
-	/* Gestion de la taille des blocs */
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;	
-
-	/* Suppression des marges */
-    padding: 0;
-    margin: 0;
-
+  box-sizing:border-box;
+  padding : 0px;
+	margin-block-start:0em;
+	margin-block-end:0em;
 }
-
-
 html{
-	/* Configuration des rem, 1rem = 10 px */
-	font-size: 62.5%;
-	background-color: grey;
+  font-size: 62.5%;
+  background-color: grey;
 }
 
-h2{
-	font-family: 'Nunito', sans-serif;
+body {
+	font-family: 'Montserrat', sans serif;
 }
 
-h3{
-	font-family: 'Montserrat', sans-serif;
+main section {
+	padding: 2rem;
+}
+main section:nth-child(even) {
+	background-color: #f2f2f2;
+	margin: 0;
+}
+
+main section:nth-child(odd) {
+	background-color: #FAFAFA;
+	margin: 0;
 }
