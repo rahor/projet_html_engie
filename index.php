@@ -25,9 +25,21 @@
 		<h3>Le nunito marche c'est cool</h3>
 		
 		<!-- SECTION ACTUALITE -->
-		<section class="sectionActu">
+		<section class="sectionActu ">
 			<div class="container">
 			<h1>DERNI&Egrave;RES ACTUALIT&Egrave;S - carnet de route</h1>
+			
+			<div class="actu">
+
+				<div class="actubloc">
+					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>	
+					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>	
+					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>	
+					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>	
+				</div>
+				
+				<a class= "actubloc" href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>
+
 			</div>
 		</section>
 
