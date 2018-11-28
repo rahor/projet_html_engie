@@ -25,23 +25,28 @@ html{
 		background-color: grey;
 	}
 
+/*
+Configuration du body
+*/
 body {
 	font-family: 'Montserrat', sans serif;
 	width: 100%;
 	margin: 0 auto;
 }
 
+a{
+	text-decoration: none;
+}
+
 h1{
   font-family: 'Nunito', cursive;
   font-size: 1.5rem;
-  /*text-transform: uppercase;*/
-  margin-bottom: 1.5rem;
-   
-/*  border-top: 0.1rem solid #FFD500;*/
+  margin-bottom: 1.5rem; 
   padding-top: .5rem;
   position:relative; 
 }
 
+/* Au dessus des h1 la barre jaune */
 h1:before {
   content:''; 
   width:4rem; 
@@ -51,16 +56,20 @@ h1:before {
   top:-4px;
 }
 
-
-
+.container{
+	/*text-align: left;*/
+	width: 50%;
+	margin: auto;
+	max-width: 1100px;
+}
 
 /*
-STYLE DE MAIN
+STYLE DE SECTION
 */
 main section {
 	padding: 3rem;
-	display: flex;
 }
+
 main section:nth-child(odd) {
 	background-color: white;
 }
@@ -69,23 +78,15 @@ main section:nth-child(even) {
 	background-color: #FAFAFA;
 }
 
-.sectionProchainesCourses .container{
-	display: flex;
-}
-
-.container{
-	text-align: left;
-	width: 50%;
-	margin: auto;
-}
 
 /*BLOC ACTU*/
 .actu{
 	display: flex;
+	align-items: stretch;
 }
 
 .actubloc{
-	flex: 1;
+	flex: 1 100%;
 
 }
 
@@ -104,7 +105,9 @@ EQUIPE
 */
 .equipe{
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
+	text-align: center
 }
 
 .equipe img {
@@ -119,37 +122,78 @@ SECTION HORS-COURSE
 .cubeHC{
 	display: flex;
 	justify-content: space-between;
+	text-align: center;
+}
+
+.cube{
+	width: 150px;
+	height: 150px;
+	background-color: #FFD500;
 }
 /**/
 
+
 /*
-SECTION COURSE
+DERNIERE SECTION
 */
-article img{
+.sectionProchainesCourses{
+	display: flex;
+	flex-direction: column;
 	width: 100%;
 }
-.container article{
-	flex : 1;
-	height: 100%;
+
+
+.listA{
+ 	display: flex;
+ 	flex-direction: column;
+	width: 100%;
 }
 
-.container article a{
+.listA a:last-of-type{
 	text-decoration: none;
-	/*display: flex;*/
-	display: flex;
-	justify-content : flex-end;
-	padding: 1rem 0;
+	padding: 0.5rem 0;
+	text-align: right;
+ 	border-bottom: 2px solid black;
+ 	
 }
 
-ul li {
 
+.dernierdiv{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+
+}
+
+article ul li {
 		list-style: none;
-        background-color: #eeeeee;
-        border: .1rem solid #e6e6e6;
-        background: #fafafa;
-
+        background: #eeeeee;
+		margin: 1rem 0;
         padding: 1rem; 
+        flex: 1 0 auto;
     }
+
+
+.prochainesCourses:nth-last-child(1){
+	padding-left: 1rem;
+}
+.prochainesCourses{
+	display: flex; 
+	width: 100%;
+}
+
+.prochainesCourses p{	
+	flex: 1 auto;
+	margin-bottom: 2rem; 
+}
+
+.prochainesCourses  img{
+	width: 100%;
+	height:15rem;
+	flex: 2 auto;
+}
+
+
 
 
 

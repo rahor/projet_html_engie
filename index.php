@@ -18,11 +18,6 @@
 	
 	<!--MAIN-->
 	<main>
-
-		<!--TEST DE POLICE-->
-	<!-- 	<h1>La page d'accueil</h1>
-		<h2>Le monserrat</h2>
-		<h3>Le nunito marche c'est cool</h3> -->
 		
 		<!-- SECTION ACTUALITE -->
 		<section class="sectionActu ">
@@ -43,16 +38,37 @@
 			</div>
 		</section>
 
+
+
 		<!-- SECTION EQUIPE -->
 		<section class="sectionEquipe">
 			<div class="container">
 			<h1>D&Eacute;COUVREZ L'&Eacute;QUIPE 2016</h1>
 
 			<div class="equipe">
-					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>	
-					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>	
-					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>	
-					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>	
+					<article>
+					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150">
+					<p>John Travolta</p>
+					</a>
+					</article>
+
+					<article>
+					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150">
+					<p>John Travolta</p>
+					</a>
+					</article>
+
+					<article>
+					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150">
+					<p>John Travolta</p>
+					</a>
+					</article>
+					
+					<article>
+					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150">
+					<p>John Travolta</p>
+					</a>
+					</article>
 			</div>
 			</div>
 		</section>
@@ -64,35 +80,50 @@
 				<h1>HORS-COURSE</h1>
 				
 				<div class="cubeHC">
-					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>	
-					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>	
-					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>	
-					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>	
+					
+					<div class="cube"></div>
+					<div class="cube"></div>
+					<div class="cube"></div>
+					<div class="cube"></div>
+				
 				</div>
 			</div>
 		</section>
 		
+
+		<!-- DERNIERE SECTION -->
 		<section class="sectionProchainesCourses">
 			<div class="container">
-			<article>
-				<h1>PROCHAINES COURSE</h1>
-				<ul>
-					<li>Titre de la course</li>
-					<li>Titre de la course</li>
-					<li>Titre de la course</li>
-					<li>Titre de la course</li>
-				</ul>
-				<a href="#">toutes les courses</a>
+			
+			<div class="dernierdiv">
+			<article class="prochainesCourses">
+				<div class="listA">
+					<h1>PROCHAINES COURSE</h1>
+					<ul>
+						<li>Titre de la course</li>
+						<li>Titre de la course</li>
+						<li>Titre de la course</li>
+						<li>Titre de la course</li>
+						<li>Titre de la course</li>
+					</ul>
+					<a href="#">toutes les courses</a>
+				</div>
 			</article>
 			
-			<article>
+			<article class="prochainesCourses">
+				<div class="listA">
+
 				<h1>ZOOM SUR LE TOUR D'ESPAGNE</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam dignissimos quae excepturi, architecto fuga repudiandae. Fuga sed quod quibusdam, odio, enim debitis blanditiis id eaque in obcaecati optio aut ea.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias quis libero ullam animi eos dolorem, sint dicta. Voluptas molestias ullam sed vitae, quo possimus. Facilis culpa dignissimos, voluptate similique amet.
+				</p>
 				
-				<a href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>
+				<a class="ABC" href="#"><img src="./img/section4/imglangue.png" alt="marche pas"></a>
 
 				<a href="#">découvrir les courses</a>
-			</article>
+				</div>
+			</article> 
+
+			</div>
 			</div>
 		</section>
 
