@@ -30,7 +30,10 @@
 		</section>
 
 		<section class="sectionEquipe">
+			<div class="container">
 			<h1>D&Eacute;COUVREZ L'&Eacute;QUIPE 2016</h1>
+			
+			</div>
 		</section>
 		
 		<section class="sectionHC">
