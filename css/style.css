@@ -17,13 +17,12 @@ body {
 
 main section {
 	padding: 2rem;
+
 }
 main section:nth-child(even) {
-	background-color: #f2f2f2;
-	margin: 0;
+	background-color: white;
 }
 
 main section:nth-child(odd) {
 	background-color: #FAFAFA;
-	margin: 0;
 }
