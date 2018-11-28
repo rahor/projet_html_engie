@@ -1,0 +1,30 @@
+*{
+    box-sizing:border-box;
+  }
+
+html{
+    font-size: 62.5%;
+  }
+
+header{
+    font-family: 'Montserrat', sans serif;
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    align-items:center;
+    background-color: white;
+}
+
+header a {
+    font-size:2rem;
+    display: block;
+    justify-content:space-around;
+    margin:20px;
+    text-decoration: none; color:black;
+}
+
+header .fas{
+    font-size:1rem;
+    margin-left:5px;
+ 
+}
