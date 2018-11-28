@@ -38,7 +38,7 @@
 					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>	
 				</div>
 				
-				<a class= "actubloc" href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>
+				<a class= "actubloc grosse" href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>
 
 			</div>
 		</section>
@@ -47,6 +47,13 @@
 		<section class="sectionEquipe">
 			<div class="container">
 			<h1>D&Eacute;COUVREZ L'&Eacute;QUIPE 2016</h1>
+
+			<div class="equipe">
+					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>	
+					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>	
+					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>	
+					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>	
+			</div>
 			</div>
 		</section>
 		

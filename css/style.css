@@ -65,17 +65,39 @@ main section:nth-child(even) {
 	margin: auto;
 }
 
-
+/*BLOC ACTU*/
 .actu{
 	display: flex;
-
 }
 
 .actubloc{
 	flex: 1;
+
 }
 
+.actubloc a{
+	height: 100%;
+	
+}
 
+.grosse img {
+	width: 100%;
+}
+
+/*
+EQUIPE
+*/
+.equipe{
+	display: flex;
+	justify-content: space-between;
+}
+
+.equipe img {
+	border: 1px solid black;
+	border-radius: 50%;
+}
+
+/*SECTION COURSE*/
 article img{
 	width: 100%;
 }
