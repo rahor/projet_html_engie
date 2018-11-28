@@ -4,9 +4,8 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<!-- <link href="https://fonts.googleapis.com/css?family=Courgette|Open+Sans" rel="stylesheet">
-	montserat
-	nunito -->
+
+	<!-- REFERENCE VERS LES POLICES -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" href="./css/style.css" />
@@ -24,23 +23,30 @@
 		<h1>La page d'accueil</h1>
 		<h2>Le monserrat</h2>
 		<h3>Le nunito marche c'est cool</h3>
-
+		
+		<!-- SECTION ACTUALITE -->
 		<section class="sectionActu">
+			<div class="container">
 			<h1>DERNI&Egrave;RES ACTUALIT&Egrave;S - carnet de route</h1>
+			</div>
 		</section>
 
+		<!-- SECTION EQUIPE -->
 		<section class="sectionEquipe">
 			<div class="container">
 			<h1>D&Eacute;COUVREZ L'&Eacute;QUIPE 2016</h1>
-			
 			</div>
 		</section>
 		
+
+		<!-- SECTION HORS-COURSE -->
 		<section class="sectionHC">
-			<h1>HORS-COURSE</h1>
+			<div class="container">
+			<h1>HORS-COURSE</h1></div>
 		</section>
 		
 		<section class="sectionProchainesCourses">
+			<div class="container">
 			<article>
 				<h1>PROCHAINES COURSE</h1>
 				<ul>
@@ -60,7 +66,7 @@
 
 				<a href="#">découvrir les courses</a>
 			</article>
-		
+			</div>
 		</section>
 
 
