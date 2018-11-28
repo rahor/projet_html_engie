@@ -23,7 +23,7 @@
 		<!--TEST DE POLICE-->
 		<h1>La page d'accueil</h1>
 		<h2>Le monserrat</h2>
-		<h3>Le nunito marche c'est cools</h3>
+		<h3>Le nunito marche c'est cool</h3>
 
 		<section class="sectionActu"></section>
 		<section class="sectionEquipe"></section>
