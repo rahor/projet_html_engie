@@ -29,11 +29,16 @@
 			<h1>DERNI&Egrave;RES ACTUALIT&Egrave;S - carnet de route</h1>
 		</section>
 		<section class="sectionEquipe"><h1>D&Eacute;COUVREZ L'&Eacute;QUIPE 2016</h1></section>
+
 		<section class="sectionHC"><h1>HORS-COURSE</h1></section>
 		<section class="sectionProchainesCourses">
 			<h1>PROCHAINES COURSE</h1>
 			<h1>ZOOM SUR LE TOUR D'ESPAGNE</h1>
 		</section>
+
+		<section class="sectionHC"></section>
+		<section class="sectionProchainesCourses"></section>
+
 
 	</main>
 
