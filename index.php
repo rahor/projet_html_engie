@@ -9,15 +9,20 @@
 </head>
 <body>
 
-<?php
-include('./pages/include/header.html');
-?>
+	<!--HEADER-->
+	<?php include('./pages/include/header.html');?>
+	
+	<!--MAIN-->
+	<main>
 
-<h1>La page html</h1>
+	<h1>La page d'accueil</h1>
+	
+	</main>
 
-<?php
-include('./pages/include/footer.html');
-?>
+	<!--FOOTER-->
+	<?php
+	include('./pages/include/footer.html');
+	?>
 
 </body>
 </html>
