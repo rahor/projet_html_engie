@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html>
+
   <head>
+
     <meta charset="utf-8">
     <title>Page Hors Courses</title>
-    <link rel="stylesheet" type="text/css" href="../css/pagehorsecourse.css">
+    <link rel="stylesheet" type="text/css" href="../css/pagehorscourse.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat%7CNunito" rel="stylesheet">
+
   </head>
+
   <body>
 
     <!--Header-->
@@ -12,48 +17,51 @@
 
     <main>
 
-      <!--Fil d'ariane + Titre + icone + image-->
+      <section class="bgs1">
+        <!--Fil d'ariane + Titre + icone + image-->
+        <section class="container">
 
-                            <!--       Background color -> #f0f6ff      -->
-      <section class="">
+          <!--Button + Fil d'ariane-->
+          <div class="fa">
+            <!--Buton return-->
+            <button type="button" href="#" class="btfg">
+              <img src="../img/icone/flecheg.png" class="imgbtfg">
+            </button>
 
-        <!--Fil d'ariane-->
-        <div>
-          <!--Faire un cercle en css autour de la fleche gauche-->
-          <img src="../img/icone/flecheg.png">
-          <h2>HORS-COURSE</h2>
-          <img src="../img/icone/fleched.png">
-          <h2>INDISCRETIONS</h2>
-        </div>
+            <!-- FA -->
+            <h2>HORS-COURSE <img src="../img/icone/fleched.png"> INDISCRETIONS</h2>
+          </div>
 
-        <!--Titre + icone + image-->
-        <div>
+          <!--Titre + icone + image-->
+          <div class="ti">
 
-          <!--Titre-->
-          <p>Ex turba vero imae sortis et paupertinae in tabernis</p>
+            <!--Titre-->
+            <p class="titre">Ex turba vero imae sortis et paupertinae
+            in tabernis omnium maximum ab ortu lucis ad vesperam sole</p>
 
-          <!--Icone
-          Faire css titre icone
-          -->
-          <div>
-            <img src="../img/icone/iconmic.png" class="">
-            <h2 class="">INDISCRETIONS</h2>
+            <!--Icone-->
+            <div class="icone">
+              <img src="../img/icone/iconmic.png" class="">
+              <h2 class="licone">INDISCRETIONS</h2>
+            </div>
+
           </div>
 
           <!--1er image-->
-          <img src="../img/pagehorscourse/img1.png" class="">
+          <img src="../img/pagehorscourse/img1.png" class="img1">
 
-        </div>
+        </section>
 
       </section>
 
       <!--text + photo-->
-      <section>
+      <section class="container">
 
         <!--Para-->
         <!--1er para en BOLD-->
         <p class="">
-           Ex turba vero imae sortis et paupertinae in tabernis aliqui pernoctant vinariis, non nulli velariis umbraculorum theatralium latent,
+           Ex turba vero imae sortis et paupertinae in tabernis aliqui pernoctant vinariis,
+           non nulli velariis umbraculorum theatralium latent,
            quae Campanam imitatus lasciviam Catulus in aedilitate sua suspendit omnium primus;
         </p>
 
@@ -73,7 +81,7 @@
 
 
         <!--2eme image + description-->
-        <img src="../img/pagehorscourse/img2.png" class="">
+        <img src="../img/pagehorscourse/img2.png" class="img2">
 
         <!--Para normal-->
         <p>
@@ -98,7 +106,7 @@
         </p>
 
         <!--Bloque Partager cet article-->
-        <div class="">
+        <div class="res">
 
           <!--Titre-->
           <h2 class="">Partager cet article</h2>
@@ -122,12 +130,7 @@
 
         </div>
 
-
-
       </section>
-
-
-
 
     </main>
 
@@ -135,4 +138,5 @@
     <?php include('./include/footer.html')?>
 
   </body>
+
 </html>

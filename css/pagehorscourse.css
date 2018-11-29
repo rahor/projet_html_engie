@@ -1,0 +1,97 @@
+/* Container */
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+}
+
+.container{
+  width: 60%;
+  margin: auto;
+}
+
+/* 1er section */
+
+  /* Background */
+  .bgs1{
+    background-color: #f0f6ff;
+    background-image: url(../img/pagehorscourse/bgphc.png);
+    background-repeat: no-repeat;
+    background-position: 75% -5%;
+  }
+
+  /* bt + Fil d'ariane  */
+
+    /* bt fleche gauche */
+    .btfg{
+      border:solid 1px #38435c;
+      border-radius: 70%;
+      /* display:inligne-block; */
+    }
+
+    .imgbtfg{
+      display: block;
+      margin: auto;
+      padding: 30%, 30%, 30%, 30%; /*A changer (ou pas ?)*/
+    }
+
+    /* FA */
+    .fa{
+      text-align: left;
+      display: flex;
+    }
+
+  /* Titre + icone */
+  .ti{
+    background-color: #38435c;
+    display: flex;
+  }
+
+    /* Titre */
+    .titre{
+      /* width: 70%;
+      length: 100%; */
+      color: #ffdc00;
+      text-align: left;
+
+    }
+
+    /* icone */
+    .icone{
+      background-color: #ffdc00;
+      color: #38435c;
+      width: 170px;
+      /* height: 170px; */
+      /* border-bottom: solid 2px #38435c;
+      padding-bottom: 50px; */
+    }
+
+    .licone{
+
+    }
+
+  /* 1er Image */
+  .img1{
+    max-width: 100%;
+    height: auto;
+    /* margin-bottom: -20%; */
+  }
+
+/* 2eme section */
+
+  /* Paragraphe en bold */
+  .parab{
+
+  }
+
+  /* 2eme image */
+  .img2{
+    width: 100%
+  }
+
+  /* Reseaux sociaux */
+  .res{
+    display: flex;
+  }
