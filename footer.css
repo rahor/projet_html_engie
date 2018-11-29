@@ -1,0 +1,155 @@
+*{
+    box-sizing:border-box;
+    font-family: 'Nunito', sans serif;
+  }
+
+html{
+    font-size: 62.5%;
+  }
+
+.block1{
+    font-size: 1.2rem;
+    background-color:#f0f6ff;
+    display:flex;
+    text-align: center;
+    width: 40%;
+    margin:auto;
+    max-width: 1100%;
+    
+}
+.logo{
+    display:flex;
+    align-items:center;
+}
+.million{
+    padding: 10px;
+}
+.contactez{
+    background-color: #2f3749;
+    margin: 15px;
+    color: #FFD500;
+    padding: 5px;
+  
+}
+
+
+
+
+.block2{
+    background-color:#38435b;
+    margin: auto;
+    color:white;
+
+}
+
+
+article{
+
+    margin:10px;
+    text-decoration: none;
+    
+    
+    
+}
+
+.reseaux{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  
+}
+.artblock2{
+    display: flex;
+    justify-content: center;
+}
+
+
+#copyright{
+    text-align: center;
+    margin:auto;
+
+}
+
+.block3 div{
+    border-top:0.3rem solid #FFD500;
+    padding: 1rem;
+}
+
+.block3{
+    background-color:#2f3749;
+    color:white;
+
+}
+.divblock3{
+    display:flex;
+    justify-content: space-around;
+}
+
+footer h1{
+    font-style: bold;
+}
+
+#lire1,#lire2{
+   border-style: solid;
+   border-width: thin;
+   border-color: #FFD500;
+   background: rgba(255,255,255,0);
+   color:#FFD500;
+}
+
+#ok{
+    border-style: solid;
+    border-width: thin;
+    border-color: white;
+    background: rgba(255,255,255,0);
+    padding: 15px;
+    color:white;
+}
+
+#mail{
+    border-style: solid;
+    border-width: thin;
+    border-color: white;
+    background:#38435b;
+    padding: 15px;
+    color:white;
+    margin-right: 5px;
+}
+.dl{
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    background:#38435b;
+    color:white;
+    display: flex;
+    justify-content: center
+    
+}
+
+#butt{
+    border-style: none;
+    background:#38435b;
+    color:white;
+
+}
+#port1,#port2{
+    border-radius: 50%;
+    border:0.8rem solid #FFD500;
+
+}
+
+.block3 h1{
+    position:relative; 
+    }
+    /* Au dessus du block la barre jaune */
+.block3 h1:before {
+    content:''; 
+    width:4rem; 
+    height:1px; 
+    background: #FFD500;
+    border-width: 4px;
+    position:absolute; 
+    top:-4px;
+    }
+    
