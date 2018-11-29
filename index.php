@@ -16,7 +16,7 @@
 
 	<!--HEADER-->
 	<?php include('./pages/include/header.html');?>
-	
+
 	<!--MAIN-->
 	<main>
 
@@ -32,14 +32,14 @@
 		<section class="sectionEquipe">
 			<div class="container">
 			<h1>D&Eacute;COUVREZ L'&Eacute;QUIPE 2016</h1>
-			
+
 			</div>
 		</section>
-		
+
 		<section class="sectionHC">
 			<h1>HORS-COURSE</h1>
 		</section>
-		
+
 		<section class="sectionProchainesCourses">
 			<article>
 				<h1>PROCHAINES COURSE</h1>
@@ -51,16 +51,16 @@
 				</ul>
 				<a href="#">toutes les courses</a>
 			</article>
-			
+
 			<article>
 				<h1>ZOOM SUR LE TOUR D'ESPAGNE</h1>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam dignissimos quae excepturi, architecto fuga repudiandae. Fuga sed quod quibusdam, odio, enim debitis blanditiis id eaque in obcaecati optio aut ea.</p>
-				
+
 				<a href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>
 
 				<a href="#">découvrir les courses</a>
 			</article>
-		
+
 		</section>
 
 
@@ -73,7 +73,3 @@
 
 </body>
 </html>
-
-
-
-
