@@ -22,19 +22,51 @@
 		<!-- SECTION ACTUALITE -->
 		<section class="sectionActu ">
 			<div class="container">
-			<h1>DERNI&Egrave;RES ACTUALIT&Egrave;S - carnet de route</h1>
+			<h1>DERNI&Egrave;RES ACTUALIT&Egrave;S - Carnet de route</h1>
 			
 			<div class="actu">
 
 				<div class="actubloc">
-					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>	
-					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>	
-					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>	
-					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>	
-				</div>
-				
-				<a class= "actubloc grosse" href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>
+					<article class="actuArt">
+						<a href="#">
+						<figure><img src="./img/section1/imgpose.png">
+					<figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </figcaption></figure>
 
+
+						</a>
+					</article>
+
+					<article class="actuArt">
+						<a href="#">
+						<figure><img src="./img/section1/imgpose.png">
+					<figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </figcaption></figure>
+
+
+						</a>
+					</article>
+
+					<article class="actuArt">
+						<a href="#">
+						<figure><img src="./img/section1/imgpose.png">
+					<figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </figcaption></figure>
+
+
+						</a>
+					</article>
+
+					<article class="actuArt">
+						<a href="#">
+						<figure><img src="./img/section1/imgpose.png">
+					<figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </figcaption></figure>
+
+
+						</a>
+					</article>
+					
+				</div>
+			
+				<a class= "actubloc grosse" href="#"><img src="./img/section1/imgpelo.png"></a>
+			
 			</div>
 		</section>
 
@@ -46,29 +78,31 @@
 			<h1>D&Eacute;COUVREZ L'&Eacute;QUIPE 2016</h1>
 
 			<div class="equipe">
-					<article>
-					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150">
+					<article class="joueur">
+					<a href="#"><img src="./img/section2/imgr1.png">
 					<p>John Travolta</p>
 					</a>
 					</article>
 
-					<article>
-					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150">
+					<article class="joueur">
+					<a href="#"><img src="./img/section2/imgr2.png">
 					<p>John Travolta</p>
 					</a>
 					</article>
 
-					<article>
-					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150">
+					<article class="joueur">
+					<a href="#"><img src="./img/section2/imgr3.png">
 					<p>John Travolta</p>
 					</a>
 					</article>
 					
-					<article>
-					<a href="https://placeholder.com"><img src="https://via.placeholder.com/150">
+					<article class="joueur">
+					<a href="#"><img src="./img/section2/imgr4.png">
 					<p>John Travolta</p>
-					</a>
-					</article>
+					</a></article>
+					
+					
+					<a><img src="./img/section4/fleche.png"/></a>
 			</div>
 			</div>
 		</section>
@@ -81,10 +115,25 @@
 				
 				<div class="cubeHC">
 					
-					<div class="cube"></div>
-					<div class="cube"></div>
-					<div class="cube"></div>
-					<div class="cube"></div>
+					<a class="cube premier "><figure><img src="./img/section3/imgvitesse.png">
+					<figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </figcaption></figure>
+					</a>
+
+					<a class="cube second"><div><img src="./img/section3/logomic.png" id="mic">
+					<label>INDISCRETION</label></div>
+					</a>
+
+					<a class="cube second"><div><img src="./img/section3/logovelo.png">
+					
+					<label>LE VELO POUR LES NULS</label></div></a>
+
+					<a class="cube second">
+						<div>
+						<img src="./img/section3/logoroue.png">
+						<label>TACTIQUE & TECHNIQUE</label>
+						</div>
+					</a>
+				
 				
 				</div>
 			</div>
@@ -93,31 +142,30 @@
 
 		<!-- DERNIERE SECTION -->
 		<section class="sectionProchainesCourses">
-			<div class="container">
+			<div class="container A">
 			
-			<div class="dernierdiv">
+			<!-- <div class="dernierdiv"> -->
 			<article class="prochainesCourses">
-				<div class="listA">
+				<!-- <div class="listA"> -->
 					<h1>PROCHAINES COURSE</h1>
 					<ul>
-						<li>Titre de la course</li>
-						<li>Titre de la course</li>
-						<li>Titre de la course</li>
-						<li>Titre de la course</li>
-						<li>Titre de la course</li>
+						<li>Titre de la course Lorem ipsum dolor sit amet, consectetur adipisicing elit. veritatis.</li>
+						<li>Titre de la course Lorem ipsum dolor sit amet, consectetur adipisicing elit. veritatis.</li>
+						<li>Titre de la course Lorem ipsum dolor sit amet, consectetur adipisicing elit. veritatis.</li>
+						<li>Titre de la course Lorem ipsum dolor sit amet, consectetur adipisicing elit. veritatis.</li>
+						<li>Titre de la course Lorem ipsum dolor sit amet, consectetur adipisicing elit. veritatis.</li>
 					</ul>
 					<a href="#">toutes les courses</a>
-				</div>
+				<!-- </div> -->
 			</article>
 			
 			<article class="prochainesCourses">
-				<div class="listA">
-
+				<!-- <div class="listA"-->
 				<h1>ZOOM SUR LE TOUR D'ESPAGNE</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias quis libero ullam animi eos dolorem, sint dicta. Voluptas molestias ullam sed vitae, quo possimus. Facilis culpa dignissimos, voluptate similique amet.
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias quis libero ullam animi.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
 				</p>
 				
-				<a class="ABC" href="#"><img src="./img/section4/imglangue.png" alt="marche pas"></a>
+				<a class="imageTour" href="#"><img src="./img/section4/imglangue.png" alt="marche pas"></a>
 
 				<a href="#">découvrir les courses</a>
 				</div>
@@ -141,3 +189,6 @@
 
 
 
+	<!-- <figure>
+								<img src="./img/section1/imgpelo.png"><figcaption>aelkfjlkejfliajfl</figcaption>
+							</figure> <--></-->
