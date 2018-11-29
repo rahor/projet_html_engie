@@ -38,11 +38,13 @@ a{
 }
 
 h1{
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
   margin-bottom: 1.5rem; 
   padding-top: .5rem;
   position:relative; 
+  font-weight: bold;
+  color: #575859;
 }
 
 /* Au dessus des h1 la barre jaune */
@@ -84,18 +86,19 @@ BLOC ACTU
 .actu{
 	display: flex;
 	width: 100%;
-	
+	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
 .actubloc{
 	display: flex;
-	width: 50%;
+	width: 40rem;
 	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .actuArt {
-	width: 50%;
+	width: 19rem;
 }
 
 .actuArt img{
@@ -103,15 +106,17 @@ BLOC ACTU
 	height: 100%;
 	display: block;
     vertical-align: top;
+    margin-top: 1rem;
 }
 
 .grosse img {
 	width: 100%;
+	margin-top: 1rem;
 }
 
 .actuArt figcaption{
 	background-color: #FFD500;
-	color : black;
+	color : #2f374b;
 	width: 90%;
 	margin: auto;
 	translate: translateX(50%);
@@ -140,8 +145,21 @@ EQUIPE
 	height: 20rem;
 	margin: auto;
 	margin-top: 1rem;
+	position: relative;
 }
 
+
+.equipe article:after{
+	    content: '';
+    width: 4rem;
+    height: 4px;
+    background: #2f374b;
+    position: absolute;
+    bottom: -2rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
 
 .joueur a img{
 	width: 90%;
@@ -217,12 +235,12 @@ figure{
 }
 
 #mic{
-	width: 50%;
-	height: 50%;
+	width: 60%;
+	height: 60%;
 }
 .second img{
 	width: 100px;
-	height: 80px;
+	height: 100px;
 	margin: 0 auto;
 	margin-bottom: 1rem; 
 }
@@ -243,9 +261,9 @@ figure{
 	content:''; 
 	width:8rem; 
 	height:4px; 
-	background: black; 
+	background: #2f374b; 
 	position:absolute; 
-	bottom: -0.5rem;
+	bottom: -1rem;
  	left: 50%;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%)

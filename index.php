@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 	<!-- REFERENCE VERS LES POLICES -->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,800|Nunito" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" href="./css/style.css" />
 	<title>Energie_Team</title>
@@ -31,14 +31,12 @@
 						<a href="#">
 						<figure><img src="./img/section1/imgpose.png">
 					<figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </figcaption></figure>
-
-
 						</a>
 					</article>
 
 					<article class="actuArt">
 						<a href="#">
-						<figure><img src="./img/section1/imgpose.png">
+						<figure><img src="./img/section1/imgpelofocus.png">
 					<figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </figcaption></figure>
 
 
@@ -47,7 +45,7 @@
 
 					<article class="actuArt">
 						<a href="#">
-						<figure><img src="./img/section1/imgpose.png">
+						<figure><img src="./img/section1/imgpelo.png">
 					<figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </figcaption></figure>
 
 
@@ -56,7 +54,7 @@
 
 					<article class="actuArt">
 						<a href="#">
-						<figure><img src="./img/section1/imgpose.png">
+						<figure><img src="./img/section1/imgvictoire.png">
 					<figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </figcaption></figure>
 
 
