@@ -8,7 +8,9 @@
 	<!-- REFERENCE VERS LES POLICES -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,800|Nunito" rel="stylesheet">
 
+	<!-- CHARGEMENT DES FEUILLES DE STYLES -->
 	<link rel="stylesheet" type="text/css" href="./css/style.css" />
+	<link rel="stylesheet" type="text/css" href="./css/reset.css" />
 	<title>Energie_Team</title>
 </head>
 <body>
@@ -30,14 +32,14 @@
 					<article class="actuArt">
 						<a href="#">
 						<figure><img src="./img/section1/imgpose.png">
-					<figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </figcaption></figure>
+					<figcaption>Lorem ipsum dolor sit amet </figcaption></figure>
 						</a>
 					</article>
 
 					<article class="actuArt">
 						<a href="#">
 						<figure><img src="./img/section1/imgpelofocus.png">
-					<figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </figcaption></figure>
+					<figcaption>Lorem ipsum dolor sit amet </figcaption></figure>
 
 
 						</a>
@@ -46,7 +48,7 @@
 					<article class="actuArt">
 						<a href="#">
 						<figure><img src="./img/section1/imgpelo.png">
-					<figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </figcaption></figure>
+					<figcaption>Lorem ipsum dolor sit amet </figcaption></figure>
 
 
 						</a>
@@ -55,7 +57,7 @@
 					<article class="actuArt">
 						<a href="#">
 						<figure><img src="./img/section1/imgvictoire.png">
-					<figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </figcaption></figure>
+					<figcaption>Lorem ipsum dolor sit amet </figcaption></figure>
 
 
 						</a>
@@ -63,7 +65,7 @@
 					
 				</div>
 			
-				<a class= "actubloc grosse" href="#"><img src="./img/section1/imgpelo.png"></a>
+				<a class= "actubloc grosse" href="#"><figure><img src="./img/section1/imgpelo.png"><figcaption>Lorem ipsum dolor sit amet </figcaption></figure></a>
 			
 			</div>
 		</section>
@@ -100,7 +102,7 @@
 					</a></article>
 					
 					
-					<a><img src="./img/section4/fleche.png"/></a>
+					<a><img class="fleche" src="./img/section4/fleche.png"/></a>
 			</div>
 			</div>
 		</section>
@@ -140,27 +142,86 @@
 
 		<!-- DERNIERE SECTION -->
 		<section class="sectionProchainesCourses">
-			<div class="container A">
+			<div class="container derniereSection">
 			
 			<!-- <div class="dernierdiv"> -->
 			<article class="prochainesCourses">
 				<!-- <div class="listA"> -->
-					<h1>PROCHAINES COURSE</h1>
-					<ul>
-						<li>Titre de la course Lorem ipsum dolor sit amet, consectetur adipisicing elit. veritatis.</li>
-						<li>Titre de la course Lorem ipsum dolor sit amet, consectetur adipisicing elit. veritatis.</li>
-						<li>Titre de la course Lorem ipsum dolor sit amet, consectetur adipisicing elit. veritatis.</li>
-						<li>Titre de la course Lorem ipsum dolor sit amet, consectetur adipisicing elit. veritatis.</li>
-						<li>Titre de la course Lorem ipsum dolor sit amet, consectetur adipisicing elit. veritatis.</li>
+				<h1>PROCHAINES COURSE</h1>
+				<ul>
+						<li>
+							<div class="calendar">
+								<label>JAN</label>
+								<label class="chiffre">28</label>
+
+							</div> 
+
+							<div class="course">
+							<p><img src="./img/section4/fcanada.png"><label class="titre">Titre de la course Lorem ipsum </label></p>
+							<img src="./img/section4/fleche.png"/>
+							</div> 
+						</li>
+	
+						<li>
+							<div class="calendar">
+								<label>FEV</label>
+								<label class="chiffre">13</label>
+
+							</div> 
+
+							<div class="course">
+							<p><img src="./img/section4/fbelgique.png"><label class="titre">Titre de la course Lorem ipsum </label></p>
+							<img src="./img/section4/fleche.png"/>
+							</div> 
+						</li>
+
+						<li>
+							<div class="calendar">
+								<label>AVR</label>
+								<label class="chiffre">11</label>
+							</div> 
+
+							<div class="course">
+							<p><img src="./img/section4/ffrance.png"><label class="titre">Titre de la course Lorem ipsum </label></p>
+							<img src="./img/section4/fleche.png"/>
+							</div>
+						</li>
+
+						<li>
+							<div class="calendar">
+								<label>MAR</label>
+								<label class="chiffre">31</label>
+
+							</div> 
+
+							<div class="course">
+							<p><img src="./img/section4/fespagne.png"><label class="titre">Titre de la course Lorem ipsum </label></p>
+							<img src="./img/section4/fleche.png"/>
+							</div>
+						</li>
+
+						<li>
+							<div class="calendar">
+								<label>MAI</label>
+								<label class="chiffre">28</label>
+
+							</div> 
+
+							<div class="course">
+							<p><img src="./img/section4/ffrance.png"><label class="titre">Titre de la course Lorem ipsum </label></p>
+							<img src="./img/section4/fleche.png"/>
+							</div>
+						</li>
+					
+	
 					</ul>
 					<a href="#">toutes les courses</a>
 				<!-- </div> -->
 			</article>
 			
 			<article class="prochainesCourses">
-				<!-- <div class="listA"-->
 				<h1>ZOOM SUR LE TOUR D'ESPAGNE</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias quis libero ullam animi.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias quis libero ullam animi.lorem Lorem ipsum dolor 
 				</p>
 				
 				<a class="imageTour" href="#"><img src="./img/section4/imglangue.png" alt="marche pas"></a>
@@ -177,16 +238,11 @@
 	</main>
 
 	<!--FOOTER-->
-	<?php
+<footer>	<?php
 	include('./pages/include/footer.html');
 	?>
+</footer>
 
 </body>
 </html>
 
-
-
-
-	<!-- <figure>
-								<img src="./img/section1/imgpelo.png"><figcaption>aelkfjlkejfliajfl</figcaption>
-							</figure> <--></-->
