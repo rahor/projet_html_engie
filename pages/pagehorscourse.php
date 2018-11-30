@@ -29,24 +29,30 @@
           <!--Button + Fil d'ariane-->
           <div class="fa">
             <!--Buton return-->
-            <a href="#"><img src="../img/icone/cerclefleche.png" class="imgbtr"><a>
+            <a href="#"><img src="../img/icone/cerclefleche.png" class="imgbtr"></a>
 
             <!-- FA -->
-            <h2>HORS-COURSE <img src="../img/icone/fleched.png" class="imgfd"> INDISCRETIONS</h2>
+            <h2>HORS-COURSE</h2>
+            <img src="../img/icone/fleched.png" class="imgfd">
+            <h2>INDISCRETIONS</h2>
           </div>
 
           <!--Titre + icone + image-->
-          <div class="ti">
+          <div>
 
           <!--Titre-->
-          <h3>Ex turba vero imae sortis et paupertinae
-          in tabernis omnium maximum ab ortu lucis ad vesperam sole</h3>
+          <div class="titreh">
+
+            <h3 class="titreh3">Ex turba vero imae sortis et paupertinae
+              in tabernis omnium maximum ab ortu lucis ad vesperam sole</h3>
+
+          </div>
 
           <!--Icone-->
-          <!-- <div class="icone">
-            <img src="../img/icone/iconmic.png" class="">
+          <div class="carrej">
+            <img src="../img/icone/iconmic.png" class="icone">
             <h3 class="licone">INDISCRETIONS</h3>
-          </div> -->
+          </div>
 
           </div>
 
