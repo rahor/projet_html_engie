@@ -1,20 +1,15 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<?php
+   // On récupère le nom de la page au sein du DOM (e.g nomDeLaPage.php)
+   $pageName=basename($_SERVER['PHP_SELF']);
 
-	<!-- REFERENCE VERS LES POLICES -->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,800|Nunito" rel="stylesheet">
-	
-	<!-- CHARGEMENT DES FEUILLES DE STYLES -->
-	<link rel="stylesheet" type="text/css" href="./../css/styleHorsCourse.css" />
-	<link rel="stylesheet" type="text/css" href="./../css/reset.css" />
-	<title>Hors-course</title>
-</head>
-<body>
-	<!--HEADER-->
-	<?php include('./include/header.html');?>
+   // A l'aide d'une RegEx, on split le nom de la page pour récupérer uniquement la partie avant le .php
+   $pageNameSplit = preg_split('/[\/.]/', $pageName);
+
+   // On inclut le Header
+   include('./include/header.php');
+
+?>
+
 	
 	<!--MAIN-->
 	<main>
@@ -22,24 +17,24 @@
 			<article class="container">
 			<h1>HORS-COURSE</h1>
 			<div class="cubeHC">
-					<a class="cube second"><div><img src="./../img/section3/logomic.png" id="mic">
+					<a class="cube second"><div><img src="./../img/icone/iconmic.png" id="mic">
 					<label>INDISCRETION</label></div>
 					</a>
 
 
-					<a class="cube premier "><figure><img src="./../img/section3/imgvitesse.png">
+					<a class="cube premier "><figure><img src="./../img/horscourse/indiscretion/indiscretion1.png">
 					<figcaption>Lorem ipsum dolor sit amet </figcaption></figure>
 					</a>
 					
-					<a class="cube premier "><figure><img src="./../img/section3/imgvitesse.png">
+					<a class="cube premier "><figure><img src="./../img/horscourse/indiscretion/indiscretion2.png">
 					<figcaption>Lorem ipsum dolor sit amet </figcaption></figure>
 					</a>
 
-					<a class="cube premier "><figure><img src="./../img/section3/imgvitesse.png">
+					<a class="cube premier "><figure><img src="./../img/horscourse/indiscretion/indiscretion3.png">
 					<figcaption>Lorem ipsum dolor sit amet </figcaption></figure>
 					</a>
 					
-					<img class="fleche" src="./../img/section4/fleche.png"/>
+					<img class="fleche" src="./../img/icone/fleched.png"/>
 
 				</div>	
 			</article>
@@ -48,23 +43,23 @@
 		<section class="velo">
 			<article class="container">
 				<div class="cubeHC">
-					<a class="cube second"><div><img src="./../img/section3/logovelo.png">
+					<a class="cube second"><div><img src="./../img/icone/iconvelo.png">
 					<label>LE VELO POUR LES NULS</label></div>
 					</a>
 
-					<a class="cube premier "><figure><img src="./../img/section3/imgvitesse.png">
+					<a class="cube premier "><figure><img src="./../img/horscourse/tactech/tactech1.png">
 					<figcaption>Lorem ipsum dolor sit amet </figcaption></figure>
 					</a>
 					
-					<a class="cube premier "><figure><img src="./../img/section3/imgvitesse.png">
+					<a class="cube premier "><figure><img src="./../img/horscourse/tactech/tactech2.png">
 					<figcaption>Lorem ipsum dolor sit amet </figcaption></figure>
 					</a>
 
-					<a class="cube premier "><figure><img src="./../img/section3/imgvitesse.png">
+					<a class="cube premier "><figure><img src="./../img/horscourse/tactech/tactech3.png">
 					<figcaption>Lorem ipsum dolor sit amet </figcaption></figure>
 					</a>
 
-					<img class="fleche" src="./../img/section4/fleche.png"/>
+					<img class="fleche" src="./../img/icone/fleched.png"/>
 
 				</div>
 			</article>
@@ -73,24 +68,24 @@
 		<section class="technique">
 			<article class="container">
 				<div class="cubeHC">
-					<a class="cube second"><div><img src="./../img/section3/logoroue.png">
+					<a class="cube second"><div><img src="./../img/icone/iconroue.png">
 					<label>TACTIQUE & TECHNIQUE</label></div>
 					</a>
 
 
-					<a class="cube premier "><figure><img src="./../img/section3/imgvitesse.png">
+					<a class="cube premier "><figure><img src="./../img/horscourse/velonul/velonul1.png">
 					<figcaption>Lorem ipsum dolor sit amet </figcaption></figure>
 					</a>
 					
-					<a class="cube premier "><figure><img src="./../img/section3/imgvitesse.png">
+					<a class="cube premier "><figure><img src="./../img/horscourse/velonul/velonul2.png">
 					<figcaption>Lorem ipsum dolor sit amet </figcaption></figure>
 					</a>
 
-					<a class="cube premier "><figure><img src="./../img/section3/imgvitesse.png">
+					<a class="cube premier "><figure><img src="./../img/horscourse/velonul/velonul3.png">
 					<figcaption>Lorem ipsum dolor sit amet </figcaption></figure>
 					</a>
 
-					<img class="fleche" src="./../img/section4/fleche.png"/>
+					<img class="fleche" src="./../img/icone/fleched.png"/>
 
 				</div>
 			</article>

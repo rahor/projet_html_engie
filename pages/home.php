@@ -1,53 +1,36 @@
+<?php
+   // On récupère le nom de la page au sein du DOM (e.g nomDeLaPage.php)
+   $pageName=basename($_SERVER['PHP_SELF']);
 
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   // A l'aide d'une RegEx, on split le nom de la page pour récupérer uniquement la partie avant le .php
+   $pageNameSplit = preg_split('/[\/.]/', $pageName);
 
-	<!-- REFERENCE VERS LES POLICES -->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,800|Nunito" rel="stylesheet">
+   // On inclut le Header
+   include('./include/header.php');
 
-	<!-- CHARGEMENT DES FEUILLES DE STYLES -->
-	<link rel="stylesheet" type="text/css" href="./css/style.css" />
-	<link rel="stylesheet" type="text/css" href="./css/reset.css" />
-	<title>Energie_Team</title>
-</head>
-<body>
+?>
 
-	<!--HEADER-->
-	<?php include('./pages/include/header.html');?>
-	
 	<!--MAIN-->
 	<main>
 		
 		<!-- SECTION ACTUALITE -->
 		<section class="sectionActu ">
 			<div class="container">
-			<h1>DERNI&Egrave;RES ACTUALIT&Egrave;S - Carnet de route</h1>
+			<h1>DERNI&Egrave;RES ACTUALITéS <span>- Carnet de route<span></h1>
 			
 			<div class="actu">
 
 				<div class="actubloc">
 					<article class="actuArt">
 						<a href="#">
-						<figure><img src="./img/section1/imgpose.png">
+						<figure><img src="./../img/accueil/section1/imgpose.png">
 					<figcaption>Lorem ipsum dolor sit amet </figcaption></figure>
 						</a>
 					</article>
 
 					<article class="actuArt">
 						<a href="#">
-						<figure><img src="./img/section1/imgpelofocus.png">
-					<figcaption>Lorem ipsum dolor sit amet </figcaption></figure>
-
-
-						</a>
-					</article>
-
-					<article class="actuArt">
-						<a href="#">
-						<figure><img src="./img/section1/imgpelo.png">
+						<figure><img src="./../img/accueil/section1/imgpelofocus.png">
 					<figcaption>Lorem ipsum dolor sit amet </figcaption></figure>
 
 
@@ -56,7 +39,16 @@
 
 					<article class="actuArt">
 						<a href="#">
-						<figure><img src="./img/section1/imgvictoire.png">
+						<figure><img src="./../img/accueil/section1/imgpelo.png">
+					<figcaption>Lorem ipsum dolor sit amet </figcaption></figure>
+
+
+						</a>
+					</article>
+
+					<article class="actuArt">
+						<a href="#">
+						<figure><img src="./../img/accueil/section1/imgvictoire.png">
 					<figcaption>Lorem ipsum dolor sit amet </figcaption></figure>
 
 
@@ -65,7 +57,7 @@
 					
 				</div>
 			
-				<a class= "actubloc grosse" href="#"><figure><img src="./img/section1/imgpelo.png"><figcaption>Lorem ipsum dolor sit amet </figcaption></figure></a>
+				<a class= "actubloc grosse" href="#"><figure><img src="./../img/accueil/section1/imgpelo.png"><figcaption>Lorem ipsum dolor sit amet </figcaption></figure></a>
 			
 			</div>
 		</section>
@@ -79,30 +71,30 @@
 
 			<div class="equipe">
 					<article class="joueur">
-					<a href="#"><img src="./img/section2/imgr1.png">
+					<a href="#"><img src="./../img/accueil/section2/imgr1.png">
 					<p>John Travolta</p>
 					</a>
 					</article>
 
 					<article class="joueur">
-					<a href="#"><img src="./img/section2/imgr2.png">
+					<a href="#"><img src="./../img/accueil/section2/imgr2.png">
 					<p>John Travolta</p>
 					</a>
 					</article>
 
 					<article class="joueur">
-					<a href="#"><img src="./img/section2/imgr3.png">
+					<a href="#"><img src="./../img/accueil/section2/imgr3.png">
 					<p>John Travolta</p>
 					</a>
 					</article>
 					
 					<article class="joueur">
-					<a href="#"><img src="./img/section2/imgr4.png">
+					<a href="#"><img src="./../img/accueil/section2/imgr4.png">
 					<p>John Travolta</p>
 					</a></article>
 					
 					
-					<a><img class="fleche" src="./img/section4/fleche.png"/></a>
+					<a><img class="fleche" src="./../img/icone/fleched.png"/></a>
 			</div>
 			</div>
 		</section>
@@ -115,21 +107,21 @@
 				
 				<div class="cubeHC">
 					
-					<a class="cube premier "><figure><img src="./img/section3/imgvitesse.png">
+					<a class="cube premier "><figure><img src="./../img/accueil/section3/imgvitesse.png">
 					<figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </figcaption></figure>
 					</a>
 
-					<a class="cube second"><div><img src="./img/section3/logomic.png" id="mic">
+					<a class="cube second"><div><img src="./../img/icone/iconmic.png" id="mic">
 					<label>INDISCRETION</label></div>
 					</a>
 
-					<a class="cube second"><div><img src="./img/section3/logovelo.png">
+					<a class="cube second"><div><img src="./../img/icone/iconvelo.png">
 					
 					<label>LE VELO POUR LES NULS</label></div></a>
 
 					<a class="cube second">
 						<div>
-						<img src="./img/section3/logoroue.png">
+						<img src="./../img/icone/iconroue.png">
 						<label>TACTIQUE & TECHNIQUE</label>
 						</div>
 					</a>
@@ -157,8 +149,8 @@
 							</div> 
 
 							<div class="course">
-							<p><img src="./img/section4/fcanada.png"><label class="titre">Titre de la course Lorem ipsum </label></p>
-							<img src="./img/section4/fleche.png"/>
+							<p><img src="./../img/accueil/section4/flag/fcanada.png"><label class="titre">Titre de la course Lorem ipsum </label></p>
+							<img src="./../img/icone/fleched.png"/>
 							</div> 
 						</li>
 	
@@ -170,8 +162,8 @@
 							</div> 
 
 							<div class="course">
-							<p><img src="./img/section4/fbelgique.png"><label class="titre">Titre de la course Lorem ipsum </label></p>
-							<img src="./img/section4/fleche.png"/>
+							<p><img src="./../img/accueil/section4/flag/fbelgique.png"><label class="titre">Titre de la course Lorem ipsum </label></p>
+							<img src="./../img/icone/fleched.png"/>
 							</div> 
 						</li>
 
@@ -182,8 +174,8 @@
 							</div> 
 
 							<div class="course">
-							<p><img src="./img/section4/ffrance.png"><label class="titre">Titre de la course Lorem ipsum </label></p>
-							<img src="./img/section4/fleche.png"/>
+							<p><img src="./../img/accueil/section4/flag/ffrance.png"><label class="titre">Titre de la course Lorem ipsum </label></p>
+							<img src="./../img/icone/fleched.png"/>
 							</div>
 						</li>
 
@@ -195,9 +187,8 @@
 							</div> 
 
 							<div class="course">
-							<p><img src="./img/section4/fespagne.png"><label class="titre">Titre de la course Lorem ipsum </label></p>
-							<img src="./img/section4/fleche.png"/>
-							</div>
+							<p><img src="./../img/accueil/section4/flag/fespagne.png"><label class="titre">Titre de la course Lorem ipsum </label></p>
+							<img src="./../img/icone/fleched.png"/>							</div>
 						</li>
 
 						<li>
@@ -208,8 +199,8 @@
 							</div> 
 
 							<div class="course">
-							<p><img src="./img/section4/ffrance.png"><label class="titre">Titre de la course Lorem ipsum </label></p>
-							<img src="./img/section4/fleche.png"/>
+							<p><img src="./../img/accueil/section4/flag/ffrance.png"><label class="titre">Titre de la course Lorem ipsum </label></p>
+							<img src="./../img/icone/fleched.png"/>
 							</div>
 						</li>
 					
@@ -224,7 +215,7 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias quis libero ullam animi.lorem Lorem ipsum dolor 
 				</p>
 				
-				<a class="imageTour" href="#"><img src="./img/section4/imglangue.png" alt="marche pas"></a>
+				<a class="imageTour" href="#"><img src="./../img/accueil/section4/imglangue.png" alt="marche pas"></a>
 
 				<a href="#">découvrir les courses</a>
 				</div>
@@ -239,7 +230,7 @@
 
 	<!--FOOTER-->
 <footer>	<?php
-	include('./pages/include/footer.html');
+	include('./include/footer.html');
 	?>
 </footer>
 
