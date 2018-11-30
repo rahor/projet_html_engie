@@ -116,13 +116,13 @@
             <!--Liens sociaux-->
 
             <!--fb-->
-            <a href="#"><img src="../img/pagehorscourse/btfb.png" class=""></a>
+            <a href="#"><img src="../img/pagehorscourse/btfb.png"></a>
 
             <!--Twitter-->
-            <a href="#"><img src="../img/pagehorscourse/bttwitter.png" class=""></a>
+            <a href="#"><img src="../img/pagehorscourse/bttwitter.png"></a>
 
             <!--Google+-->
-            <a href="#"><img src="../img/pagehorscourse/btgoogle.png" class=""></a>
+            <a href="#"><img src="../img/pagehorscourse/btgoogle.png"></a>
 
           </div>
 

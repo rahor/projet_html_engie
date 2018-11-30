@@ -11,6 +11,10 @@ main{
   background: linear-gradient(to bottom , #f0f6ff 30%, transparent 0);
 }
 
+a:hover{
+  opacity: 0.5;
+}
+
 /* section */
 
   /* Background image*/
